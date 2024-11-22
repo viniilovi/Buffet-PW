@@ -1,0 +1,22 @@
+.main-galeria{
+      margin: auto;
+      display: grid;
+      justify-items: center;
+      grid-template-columns: repeat( auto-fill, minmax(360px, 2fr) );
+      width: 95%;
+      height: max-content;
+      overflow-y: scroll;
+      overflow-x: hidden;
+}
+.galeria-image{
+      margin: 0.5rem;
+}
+.galeria-image > img{
+      width: 350px;
+      height: 250px;
+      border: 2px solid #6608e2;
+      border-radius: 8px;
+}
+.galeria-image-2{
+      grid-row: 1 / span 2;
+}
