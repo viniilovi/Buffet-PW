@@ -17,7 +17,7 @@
         <div class="header-logo">
             <img src="image/logoBiif.png" alt="Logo">
         </div>
-        <nav class="container-nav-header">
+        <nav id="nav-header" class="container-nav-header">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -28,127 +28,236 @@
                 <li>
                     <a href="galeria.html">Galeria</a>
                 </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
             </ul>
 
         </nav>
         <nav class="container-logins">
             <button class="register-button">
-                <a href="cadastro.html">
-                    Cadastro
-                </a>
-            </button>
-            <button class="login-button">
-                <a href="login.html">
-                    Login
+                <a href="orcamento.html">
+                    PEÇA UM ORÇAMENTO
                 </a>
             </button>
         </nav>
+        <div class="heading-mobile">
+            <h1>Buffet Biif</h1>
+        </div>
+        <div id="dropdown-mobile-nav-container" class="dropdown-mobile-nav-container">
+            <div id="dropdown-mobile-nav" class="dropdown-mobile-nav" onclick="openMobileNavMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav id="nav-header-mobile" class="container-nav-header-mobile">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+            </ul>
+
+        </nav>
     </header>
-    <main class="main-galeria">
-            <div class="galeria-image">
+    <main class="wrapper-carrossel-gallery">
+        <h1>Imagens Principais</h1>
+        <div class="container-carrossel-gallery">
+            <div class="carrossel-gallery-image">
                 <img src="image/placeholder.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="carrossel-gallery-image">
                 <img src="image/galeria-image-2.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="carrossel-gallery-image">
                 <img src="image/galeria-image-3.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="carrossel-gallery-image">
                 <img src="image/galeria-image-4.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="carrossel-gallery-image">
                 <img src="image/galeria-image-5.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="carrossel-gallery-image">
+                <img src="image/galeria-image-5.jpg" alt="">
+            </div>
+            <div class="carrossel-gallery-image">
+                <img src="image/galeria-image-5.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <div class="div-button-select-gallery-category">
+        <button class="button-select-gallery-category">Gastronomia</button><button class="button-select-gallery-category">Espaços</button><button class="button-select-gallery-category">Eventos</button>
+    </div>
+
+    <section id="section-gallery-1" class="section-gallery">
+        <div class="gallery-image">
+            <img src="image/placeholder.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-2.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-3.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-4.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-5.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-6.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-7.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-8.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-9.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-10.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-11.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-12.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-13.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-14.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-15.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="section-gallery-2" class="section-gallery">
+        <div class="gallery-image">
+            <img src="image/placeholder.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-2.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-3.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-4.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-5.jpg" alt="">
+        </div>
+        <div class="gallery-image">
+            <img src="image/galeria-image-6.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="section-gallery-3" class="section-gallery">
+            <div class="gallery-image">
+                <img src="image/placeholder.jpg" alt="">
+            </div>
+            <div class="gallery-image">
+                <img src="image/galeria-image-2.jpg" alt="">
+            </div>
+            <div class="gallery-image">
+                <img src="image/galeria-image-3.jpg" alt="">
+            </div>
+            <div class="gallery-image">
+                <img src="image/galeria-image-4.jpg" alt="">
+            </div>
+            <div class="gallery-image">
+                <img src="image/galeria-image-5.jpg" alt="">
+            </div>
+            <div class="gallery-image">
                 <img src="image/galeria-image-6.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-7.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-8.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-9.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-10.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-11.jpg" alt="">
             </div>
-            <div class="galeria-image">
+            <div class="gallery-image">
                 <img src="image/galeria-image-12.jpg" alt="">
             </div>
-            <div class="galeria-image">
-                <img src="image/galeria-image-13.jpg" alt="">
+        </section>
+        <footer class="wrapper-footer">
+            <div class="container-footer-top">
+                <nav class="nav-footer">
+                    <ul class="ul-nav-footer">
+                        <li>
+                            <a href="">
+                                <img src="image/instagramIcon.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/xIcon.png" alt="X">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/tiktokIcon.png" alt="Tiktok">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/facebookIcon.png" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="galeria-image">
-                <img src="image/galeria-image-14.jpg" alt="">
-            </div>
-            <div class="galeria-image">
-                <img src="image/galeria-image-15.jpg" alt="">
-            </div>
-    </main>
-    <footer class="wrapper-footer">
-        <div class="container-footer-top">
-            <nav class="nav-footer">
-                <ul class="ul-nav-footer">
-                    <li>
-                        <a href="">
-                            <img src="image/instagramIcon.png" alt="Instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="image/xIcon.png" alt="X">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="image/tiktokIcon.png" alt="Tiktok">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="image/facebookIcon.png" alt="Facebook">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="container-footer-middle">
-            <div class="footer-middle-column1">
-                <h1>Biif</h1>
-                <div class="border-text-footer"></div>
-                <img src="image/logoBiif.png" alt="">
-            </div>
-            <div class="footer-middle-column2">
-                <h1>Contato</h1>
-                <div class="border-text-footer"></div>
-                <div class="footer-contact-icons">
-                    <img src="image/homeIcon.png" alt="EndereçoÍcone">
-                    <p>Endereço Rua ABC, 123</p>
+            <div class="container-footer-middle">
+                <div class="footer-middle-column1">
+                    <h1>Biif</h1>
+                    <div class="border-text-footer"></div>
+                    <img src="image/logoBiif.png" alt="">
                 </div>
-                <div class="footer-contact-icons">
-                    <img src="image/telephoneIcon.png" alt="TelefoneÍcone">
-                    <p>+55 11 98765-5432</p>
-                </div>
-                <div class="footer-contact-icons">
-                    <img src="image/emailIcon.png" alt="EmailÍcone">
-                    <p>BuffetBiif@outlook.com</p>
+                <div class="footer-middle-column2">
+                    <h1>Contato</h1>
+                    <div class="border-text-footer"></div>
+                    <div class="container-footer-contact-icons">
+                        <div class="footer-contact-icons">
+                            <img src="image/homeIcon.png" alt="EndereçoÍcone">
+                            <p>Endereço Rua ABC, 123</p>
+                        </div>
+                        <div class="footer-contact-icons">
+                            <img src="image/telephoneIcon.png" alt="TelefoneÍcone">
+                            <p>+55 11 98765-5432</p>
+                        </div>
+                        <div class="footer-contact-icons">
+                            <img src="image/emailIcon.png" alt="EmailÍcone">
+                            <p>BuffetBiif@outlook.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container-footer-bottom">
-            <p>© 2024 Copyright Todos direitos reservados para Biif</p>
-        </div>
-
-    </footer>
+            <div class="container-footer-bottom">
+                <p>© 2024 Copyright Todos direitos reservados para Biif</p>
+            </div>
+    
+        </footer>
 </body>
 
 </html>

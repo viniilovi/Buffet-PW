@@ -16,7 +16,7 @@
         <div class="header-logo">
             <img src="image/logoBiif.png" alt="Logo">
         </div>
-        <nav class="container-nav-header">
+        <nav id="nav-header" class="container-nav-header">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -27,76 +27,231 @@
                 <li>
                     <a href="galeria.html">Galeria</a>
                 </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
             </ul>
 
         </nav>
         <nav class="container-logins">
             <button class="register-button">
-                <a href="cadastro.html">
+                <a href="orcamento.html">
                     PEÇA UM ORÇAMENTO
                 </a>
             </button>
         </nav>
+        <div class="heading-mobile">
+            <h1>Buffet Biif</h1>
+        </div>
+        <div id="dropdown-mobile-nav-container" class="dropdown-mobile-nav-container">
+            <div id="dropdown-mobile-nav" class="dropdown-mobile-nav" onclick="openMobileNavMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav id="nav-header-mobile" class="container-nav-header-mobile">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+            </ul>
+
+        </nav>
     </header>
-    <main class="wrapper-about-us">
-        <div class="container-content-about-us">
-            <div class="div-text-about-us">
+    <main class="wrapper-main">
+        <div id ="background-image-main-1" class="background-main background-image-1 background-animation"></div>
+        <div id ="background-image-main-2" class="background-main background-image-2 background-animation"></div>
+        <div id ="background-image-main-3" class="background-main background-image-3 background-animation"></div>
+        <div class="container-content-main">
+            <div class="div-text-main">
                 <h1>BUFFET BIIF</h1>
                 <h2>ONDE SUA FESTA SE TORNA REALIDADE!</h2>
             </div>
-            <div class="div-buttons-about-us">
+            <div class="div-buttons-main">
                 <button id="button-change-bg-1" onclick="onClickChangeBg(event)"></button>
                 <button id="button-change-bg-2" onclick="onClickChangeBg(event)"></button>
                 <button id="button-change-bg-3" onclick="onClickChangeBg(event)"></button>
             </div>
         </div>
     </main>
+
+    <section class="wrapper-about-us">
+        <div class="container-image-about-us">
+            <img src="image/about-us-image.jpg" alt="">
+        </div>
+        <div class="container-description-about-us">
+            <h1>QUEM SOMOS</h1>
+            <p>Com 30 anos de experiência, o Buffet Biif se destaca pela excelência em proporcionar eventos incríveis para seus clientes. Seu foco é de trazer eventos acessíveis, mas mantendo a qualidade.</p>
+            <button class="button-about-us">
+                <a href="cadastro.html">
+                    PEÇA UM ORÇAMENTO
+                </a>
+            </button>
+        </div>
+    </section>
+
     <section class="wrapper-section-buffet-menu">
         <div class="buffet-menu-heading">
-            <h1>Espaços</h1>
+            <h1>Cardápios</h1>
         </div>
         <div class="container-buffet-menu">
             <div class="buffet-menu-photos">
-                <img src="image/placeholder.jpg" alt="">
-                <p>DESCRIÇÃO FOTO</p>
+                <img src="image/buffet-menu-image-1.jpg" alt="">
+                <div>
+                    <h2>Cardápio Biif</h2>
+                    <p>Nosso cardápio mais acessível, tendo mais foco em carnes e churrasco.</p>
+                </div>
             </div>
             <div class="buffet-menu-photos">
-                <img src="image/placeholder.jpg" alt="">
-                <p>DESCRIÇÃO FOTO</p>
+                <img src="image/buffet-menu-image-2.jpg" alt="">
+                <div>
+                    <h2>Cardápio Jantar</h2>
+                    <p>Nosso cardápio para quem gosta de um jantar, tendo mais foco em carnes e churrasco.</p>
+                </div>
             </div>
             <div class="buffet-menu-photos">
-                <img src="image/placeholder.jpg" alt="">
-                <p>DESCRIÇÃO FOTO</p>
+                <img src="image/buffet-menu-image-3.jpg" alt="">
+                <div>
+                    <h2>Cardápio Biif Premium</h2>
+                    <p>Nosso principal cardápio, que contém os dois cardápios anteriores, junto com pizzas.</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="wrapper-location-card">
         <article class="location-card-container">
             <img src="image/placeholder.jpg" alt="">
-            <h2>Título</h2>
-            <span>Descrição card</span>
+            <h2>Casa Biif</h2>
+            <p>Espaço de 30m² fechado</p>
         </article>
         <article class="location-card-container">
             <img src="image/placeholder.jpg" alt="">
-            <h2>Título</h2>
-            <span>Descrição card</span>
+            <h2>Pizzaria Biif</h2>
+            <p>Espaço de 25m² fechado semelhante à uma pizzaria</p>
         </article>
         <article class="location-card-container">
             <img src="image/placeholder.jpg" alt="">
-            <h2>Título</h2>
-            <span>Descrição card</span>
+            <h2>Piscina Biif</h2>
+            <p>Espaço de 20m² ao ar livre com uma piscina.</p>
         </article>
         <article class="location-card-container">
             <img src="image/placeholder.jpg" alt="">
-            <h2>Título</h2>
-            <span>Descrição card</span>
+            <h2>Palácio Biif</h2>
+            <p>O maior espaço que temos, este tendo 50m².</p>
         </article>
-
 
     </section>
+
+    <section class="wrapper-statement">
+        <div class="container-statement-heading">
+            <h2>SATISFAÇÃO EM ATENDÊ-LOS</h2>
+            <h1>DEPOIMENTOS</h1>
+        </div>
+        <div class="container-statement-cards">
+            <div id="statement-card-1" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia1</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-2" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia2</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-3" class="last-visible-statement-card statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia3</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-4" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia4</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-5" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia5</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-6" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia6</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-7" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia7</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-8" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia8</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+            <div id="statement-card-9" class="statement-cards">
+                <div class="before-after-statement-cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corrupti sequi facilis, odit ratione aperiam, id suscipit deleniti dolorum, maxime alias dolor nesciunt cupiditate dicta doloremque.</p>
+                </div>
+                <div class="row-2-statement-cards">
+                    <h3>Julia9</h3>
+                    <h4>14/02/2020</h4>
+                    <div class="statement-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-statement-box-buttons">
+            <div class="statement-box-buttons">
+                <button id="statement-box-button-1" class="statement-box-button statement-box-button-active" onclick="onClickChangeCard(event)">
+                <button id="statement-box-button-2" class="statement-box-button" onclick="onClickChangeCard(event)">
+                <button id="statement-box-button-3" class="statement-box-button" onclick="onClickChangeCard(event)">
+            </div>
+        </div>
+    </section>
+
     <footer class="wrapper-footer">
         <div class="container-footer-top">
             <nav class="nav-footer">
@@ -133,17 +288,19 @@
             <div class="footer-middle-column2">
                 <h1>Contato</h1>
                 <div class="border-text-footer"></div>
-                <div class="footer-contact-icons">
-                    <img src="image/homeIcon.png" alt="EndereçoÍcone">
-                    <p>Endereço Rua ABC, 123</p>
-                </div>
-                <div class="footer-contact-icons">
-                    <img src="image/telephoneIcon.png" alt="TelefoneÍcone">
-                    <p>+55 11 98765-5432</p>
-                </div>
-                <div class="footer-contact-icons">
-                    <img src="image/emailIcon.png" alt="EmailÍcone">
-                    <p>BuffetBiif@outlook.com</p>
+                <div class="container-footer-contact-icons">
+                    <div class="footer-contact-icons">
+                        <img src="image/homeIcon.png" alt="EndereçoÍcone">
+                        <p>Endereço Rua ABC, 123</p>
+                    </div>
+                    <div class="footer-contact-icons">
+                        <img src="image/telephoneIcon.png" alt="TelefoneÍcone">
+                        <p>+55 11 98765-5432</p>
+                    </div>
+                    <div class="footer-contact-icons">
+                        <img src="image/emailIcon.png" alt="EmailÍcone">
+                        <p>BuffetBiif@outlook.com</p>
+                    </div>
                 </div>
             </div>
         </div>
